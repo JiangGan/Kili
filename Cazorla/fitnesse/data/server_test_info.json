@@ -1,0 +1,18 @@
+{
+  "servers":[
+    {
+      "name" : "mgs",
+      "url" : "MgsTest",
+      "tags":[
+        "main"
+      ]
+    },
+    {
+      "name" : "mas",
+      "url" : "MasTest",
+      "tags":[
+        "main"
+      ]
+    }
+  ]
+}
