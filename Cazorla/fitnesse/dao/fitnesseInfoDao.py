@@ -5,8 +5,6 @@ import os
 import logging
 import json
 
-
-
 def getFitnesseInfoByName(data):
     fitness_server_name = data['fitnesse_server_name']
     infos = getFitnesseInfo()

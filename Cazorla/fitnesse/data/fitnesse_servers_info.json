@@ -1,14 +1,16 @@
 {
-  "servers":[
-    {
-      "name" : "zfjs",
-      "ip" : "127.0.0.1",
-      "port" : "9090"
-    },
-    {
-      "name" : "yjr",
-      "ip" : "127.0.0.1",
-      "port" : "9091"
-    }
-  ]
+    "servers": [
+        {
+            "name": "zfjs",
+            "ip": "127.0.0.1",
+            "port": "9090",
+            "result_file_path": "/Users/mayunfei/Documents/FitNesseRoot/files/testResults/"
+        },
+        {
+            "name": "yjr",
+            "ip": "127.0.0.1",
+            "port": "9091",
+            "result_file_path": "/Users/mayunfei/Documents/FitNesseRoot/files/testResults/"
+        }
+    ]
 }

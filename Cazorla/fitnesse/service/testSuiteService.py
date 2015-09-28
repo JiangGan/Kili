@@ -5,8 +5,9 @@ import httplib2
 
 def runTestSuiteByTags(data):
     uri = buildUrl(data)
+    print uri
     h = httplib2.Http(timeout=5)
-    h.request(uri,method="GET",)
+    h.request(uri,method="GET")
     print '请求完成'
 
 
@@ -16,3 +17,6 @@ def buildUrl(data):
         uri = uri + tag + ','
     uri = uri[0:-1]
     return uri
+
+
+

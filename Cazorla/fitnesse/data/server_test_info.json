@@ -13,6 +13,13 @@
       "tags":[
         "main"
       ]
+    },
+    {
+      "name" : "soap",
+      "url" : "FrontPage.SoapInterfaceTest.SoapTest.TestCase",
+      "tags":[
+        "main"
+      ]
     }
   ]
 }
